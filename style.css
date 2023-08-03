@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+/*----Navbar---*/
+
+.navbar {
+    background-color: #213b52;
+    color: #fff;
+    font-weight: 600;
+}
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar nav-item:hover {
+    color: #fdd067;
+}
+
+
+/*----banner ---*/
+
+#banner {
+    background-color: #213b52;
+    color: #fff;
+    padding-top: 5%;
+}
+
+.company-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+
+/*------Services-----*/
+
+#servives{
+    padding: 80px 0;
+    margin-top: 20px;   
+}
+
+.services-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.services {
+    padding: 20px;
+    transition: 0.5s;
+}
+.services p {
+    color: #213b52;
+}
+
+.services h4 {
+    padding: 5px;
+    margin-top: 20px;
+    font-weight: 450;
+    color: #213b52;
+    text-transform: uppercase;
+}
+
+.service-title {
+    color: #213b52;
+}
+.service-title::before {
+    content: '';
+    background: #fdd067;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+.services:hover  {
+    transform: translateY(-10px);
+}
+
+
+/*---- about us ----*/
+
+#about-us {
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+    color: #213b52;
+}
+
+#about-us ul li {
+    margin: 10px 0;
+    color: #213b52;
+}
+
+#about-us ul{
+    margin-left: 20px;
+}
+
+#partners p {
+    font-size: 36px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    color: #213b52;
+}
+
+
+/*-----social media-----*/
+
+#social-media{
+    background: #f8f9fa;
+    padding: 100px 0;
+}
+
+#social-media p {
+    font-size: 36px ;
+    font-weight: 600px;
+    margin-bottom: 30px;
+    color: #213b52;
+}
+
+.social-icons img {
+    width: 70px;
+    transition: 0.5s;
+}
+.social-icons img:hover  {
+    transform: translateY(-10px);
+}
+
+/*----footer---*/
+
+#footer{
+    background-color: #213b52;
+    color: #fff;
+}
+
+.footer-img{
+    width: 100%;
+}
+
+.footer-box {
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box p a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-box .fa {
+    margin-right: 8px;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    color: #fff;
+}
+
