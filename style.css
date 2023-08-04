@@ -115,6 +115,18 @@ body{
     margin-left: 20px;
 }
 
+
+/*-----Partners-----*/
+
+.partner-icons img {
+    width: 95px;
+    padding: 20px;
+    transition: 0.5s;
+}
+.partner-icons img:hover  {
+    transform: translateY(-10px);
+}
+
 #partners p {
     font-size: 36px;
     font-weight: 600px;
@@ -139,7 +151,7 @@ body{
 }
 
 .social-icons img {
-    width: 70px;
+    width: 60px;
     transition: 0.5s;
 }
 .social-icons img:hover  {
